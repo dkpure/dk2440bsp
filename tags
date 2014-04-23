@@ -1,0 +1,311 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=arm-linux-gcc$/;"	m
+CLKCTL_BASE	s3c2440_regs.h	31;"	d
+DRAM_BASE	mini2440_board.h	4;"	d
+DRAM_SIZE_IN_BYTES	mini2440_board.h	5;"	d
+DW_STACK_START	configs.h	55;"	d
+FAIL	def.h	12;"	d
+FALSE	def.h	10;"	d
+FCLK	configs.h	64;"	d
+FIN	configs.h	57;"	d
+FREE_RAM_BASE	configs.h	53;"	d
+FREE_RAM_SIZE	configs.h	52;"	d
+GPIOCTL_BASE	s3c2440_regs.h	61;"	d
+HCLK	configs.h	65;"	d
+HEAP_BASE	configs.h	47;"	d
+HEAP_SIZE	configs.h	46;"	d
+INTCTL_BASE	s3c2440_regs.h	16;"	d
+LD	Makefile	/^LD=arm-linux-ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-Tmem.lds -Bstatic -nostdlib$/;"	m
+LIBPATH	Makefile	/^LIBPATH=-lgcc -L\/home\/pure\/work\/mini2440\/arm\/4.3.2\/lib\/gcc\/arm-none-linux-gnueabi\/4.3.2$/;"	m
+MEMCTL_BASE	s3c2440_regs.h	43;"	d
+MMU_BUFFERABLE	mmu.h	8;"	d
+MMU_CACHEABLE	mmu.h	7;"	d
+MMU_DOMAIN	mmu.h	5;"	d
+MMU_FULL_ACCESS	mmu.h	4;"	d
+MMU_SECDESC_NORMAL	mmu.h	10;"	d
+MMU_SECDESC_WB	mmu.h	11;"	d
+MMU_SECTION	mmu.h	9;"	d
+MMU_SECTION_SIZE	mmu.h	12;"	d
+MMU_SPECIAL	mmu.h	6;"	d
+MMU_TABLE_BASE	configs.h	49;"	d
+MMU_TABLE_SIZE	configs.h	48;"	d
+MPLL_405MHZ	configs.h	63;"	d
+NAND_CTL_BASE	s3c2440_regs.h	194;"	d
+NAND_TACLS	configs.h	73;"	d
+NAND_TWRPH0	configs.h	74;"	d
+NAND_TWRPH1	configs.h	75;"	d
+NF_ADDR	nandflash.c	8;"	d	file:
+NF_BLOCK_NPAGES	nandflash.h	11;"	d
+NF_BLOCK_PAGE_SHIFT	nandflash.h	10;"	d
+NF_CLEAR_RB	nandflash.c	11;"	d	file:
+NF_CMD	nandflash.c	7;"	d	file:
+NF_CODE_READ0	nandflash.h	16;"	d
+NF_CODE_READ1	nandflash.h	17;"	d
+NF_CODE_RESET	nandflash.h	15;"	d
+NF_DATA	nandflash.c	9;"	d	file:
+NF_DESELECT	nandflash.c	6;"	d	file:
+NF_DETECT_RB	nandflash.c	12;"	d	file:
+NF_PAGE_SHIFT	nandflash.h	12;"	d
+NF_PAGE_SIZE	nandflash.h	13;"	d
+NF_SELECT	nandflash.c	5;"	d	file:
+OBJCOPY	Makefile	/^OBJCOPY=arm-linux-objcopy$/;"	m
+OK	def.h	11;"	d
+PCLK	configs.h	66;"	d
+SDRAM_BASE	configs.h	42;"	d
+SDRAM_SIZE	configs.h	43;"	d
+SIZE_4K	def.h	14;"	d
+SIZE_64M	def.h	15;"	d
+STACK_BASE	configs.h	51;"	d
+STACK_SIZE	configs.h	50;"	d
+SZ_128K	configs.h	10;"	d
+SZ_128M	configs.h	21;"	d
+SZ_16K	configs.h	7;"	d
+SZ_16M	configs.h	18;"	d
+SZ_1G	configs.h	25;"	d
+SZ_1K	configs.h	4;"	d
+SZ_1M	configs.h	14;"	d
+SZ_256K	configs.h	11;"	d
+SZ_256M	configs.h	22;"	d
+SZ_2G	configs.h	26;"	d
+SZ_2M	configs.h	15;"	d
+SZ_32K	configs.h	8;"	d
+SZ_32M	configs.h	19;"	d
+SZ_4K	configs.h	5;"	d
+SZ_4M	configs.h	16;"	d
+SZ_512K	configs.h	12;"	d
+SZ_512M	configs.h	23;"	d
+SZ_64K	configs.h	9;"	d
+SZ_64M	configs.h	20;"	d
+SZ_8K	configs.h	6;"	d
+SZ_8M	configs.h	17;"	d
+TEXT_BASE	configs.h	45;"	d
+TEXT_SIZE	configs.h	44;"	d
+TRUE	def.h	9;"	d
+UART0_CTL_BASE	s3c2440_regs.h	161;"	d
+UART1_CTL_BASE	s3c2440_regs.h	162;"	d
+UART2_CTL_BASE	s3c2440_regs.h	163;"	d
+USE_MMU	main.c	92;"	d	file:
+WTCON_ADDR	s3c2440_regs.h	10;"	d
+_CONFIGS_H	configs.h	2;"	d
+_DEF_H	def.h	2;"	d
+_MINI2440_H	mini2440_board.h	2;"	d
+_MMU_H	mmu.h	2;"	d
+_NANDFLASH_H	nandflash.h	2;"	d
+_S3C2440_REGS_H	s3c2440_regs.h	2;"	d
+__REG	s3c2440_regs.h	4;"	d
+__REG8	s3c2440_regs.h	5;"	d
+_start	core_init.S	/^_start:$/;"	l
+begin_of_block	nandflash.c	121;"	d	file:
+cache_clean_invalidate	mmu.c	/^void cache_clean_invalidate(void)$/;"	f
+clean_loop	core_init.S	/^clean_loop:$/;"	l
+copy_loop	core_init.S	/^copy_loop:$/;"	l
+copy_myself_to_sdram	core_init.S	/^copy_myself_to_sdram:$/;"	l
+cpu_arm920_cache_clean_invalidate_all	mmu.c	/^static inline void cpu_arm920_cache_clean_invalidate_all(void)$/;"	f	file:
+cpu_arm920_mmu_init	mmu.c	/^static inline void cpu_arm920_mmu_init(void)$/;"	f	file:
+cpu_arm920_tlb_invalidate_all	mmu.c	/^static inline void cpu_arm920_tlb_invalidate_all(void)$/;"	f	file:
+delay	main.c	/^static void delay(volatile unsigned long dly)$/;"	f	file:
+disable_interrupt	core_init.S	/^disable_interrupt:$/;"	l
+disable_mmu	core_init.S	/^disable_mmu:$/;"	l
+disable_watchdog	core_init.S	/^disable_watchdog:$/;"	l
+dk_main	main.c	/^int dk_main(void)$/;"	f
+exception_data_abort	core_init.S	/^exception_data_abort		: .word handle_data_abort$/;"	l
+exception_fiq	core_init.S	/^exception_fiq			: .word handle_fiq$/;"	l
+exception_irq	core_init.S	/^exception_irq			: .word handle_irq$/;"	l
+exception_not_used	core_init.S	/^exception_not_used		: .word handle_not_used$/;"	l
+exception_prefetch_abort	core_init.S	/^exception_prefetch_abort	: .word handle_prefetch_abort$/;"	l
+exception_swi	core_init.S	/^exception_swi			: .word handle_swi$/;"	l
+exception_undef_instruction	core_init.S	/^exception_undef_instruction	: .word handle_undef_instruction$/;"	l
+halt_loop	core_init.S	/^halt_loop:$/;"	l
+handle_data_abort	core_init.S	/^handle_data_abort:$/;"	l
+handle_fiq	core_init.S	/^handle_fiq:$/;"	l
+handle_irq	core_init.S	/^handle_irq:$/;"	l
+handle_not_used	core_init.S	/^handle_not_used:$/;"	l
+handle_prefetch_abort	core_init.S	/^handle_prefetch_abort:$/;"	l
+handle_swi	core_init.S	/^handle_swi:$/;"	l
+handle_undef_instruction	core_init.S	/^handle_undef_instruction:$/;"	l
+init_c_run_env	core_init.S	/^init_c_run_env:$/;"	l
+init_led	core_init.S	/^init_led:$/;"	l
+init_mem_ctl	core_init.S	/^init_mem_ctl:$/;"	l
+init_sys_clk	core_init.S	/^init_sys_clk:$/;"	l
+init_uart	main.c	/^void init_uart(void)$/;"	f
+int32	def.h	/^typedef long		int32;$/;"	t
+int8	def.h	/^typedef char		int8;$/;"	t
+load_program_from_nand	nandflash.c	/^void load_program_from_nand(void)$/;"	f
+mem_cfg_vals	core_init.S	/^mem_cfg_vals:$/;"	l
+mem_map	mmu.c	/^void mem_map(void)$/;"	f
+mem_mapping_linear	mmu.c	/^static void mem_mapping_linear(void)$/;"	f	file:
+mmu_init	mmu.c	/^void mmu_init(void)$/;"	f
+mmu_tlb_base	mmu.c	/^static unsigned long *mmu_tlb_base = (unsigned long *) MMU_TABLE_BASE;$/;"	v	file:
+nand_init	nandflash.c	/^void nand_init(void)$/;"	f
+nand_isbadblock_p2048	nandflash.c	/^static int nand_isbadblock_p2048(unsigned int block)$/;"	f	file:
+nand_read	nandflash.c	/^void nand_read(unsigned char *buf, unsigned long start_addr, unsigned long size)$/;"	f
+nand_read_page2048	nandflash.c	/^static void nand_read_page2048(unsigned int page, unsigned char *buf)$/;"	f	file:
+nand_reset	nandflash.c	/^static inline void nand_reset(void)$/;"	f	file:
+oBANKCON0	s3c2440_regs.h	45;"	d
+oBANKCON1	s3c2440_regs.h	46;"	d
+oBANKCON2	s3c2440_regs.h	47;"	d
+oBANKCON3	s3c2440_regs.h	48;"	d
+oBANKCON4	s3c2440_regs.h	49;"	d
+oBANKCON5	s3c2440_regs.h	50;"	d
+oBANKCON6	s3c2440_regs.h	51;"	d
+oBANKCON7	s3c2440_regs.h	52;"	d
+oBANKSIZE	s3c2440_regs.h	54;"	d
+oBWSCON	s3c2440_regs.h	44;"	d
+oCAMDIVN	s3c2440_regs.h	38;"	d
+oCLKCON	s3c2440_regs.h	35;"	d
+oCLKDIV	s3c2440_regs.h	37;"	d
+oCLKSLOW	s3c2440_regs.h	36;"	d
+oEINTMASK	s3c2440_regs.h	144;"	d
+oEINTPEND	s3c2440_regs.h	145;"	d
+oEXTINT0	s3c2440_regs.h	135;"	d
+oEXTINT1	s3c2440_regs.h	136;"	d
+oEXTINT2	s3c2440_regs.h	137;"	d
+oGPACON	s3c2440_regs.h	62;"	d
+oGPADAT	s3c2440_regs.h	63;"	d
+oGPBCON	s3c2440_regs.h	69;"	d
+oGPBDAT	s3c2440_regs.h	70;"	d
+oGPBUP	s3c2440_regs.h	71;"	d
+oGPCCON	s3c2440_regs.h	77;"	d
+oGPCDAT	s3c2440_regs.h	78;"	d
+oGPCUP	s3c2440_regs.h	79;"	d
+oGPDCON	s3c2440_regs.h	85;"	d
+oGPDDAT	s3c2440_regs.h	86;"	d
+oGPDUP	s3c2440_regs.h	87;"	d
+oGPECON	s3c2440_regs.h	93;"	d
+oGPEDAT	s3c2440_regs.h	94;"	d
+oGPEUP	s3c2440_regs.h	95;"	d
+oGPFCON	s3c2440_regs.h	101;"	d
+oGPFDAT	s3c2440_regs.h	102;"	d
+oGPFUP	s3c2440_regs.h	103;"	d
+oGPGCON	s3c2440_regs.h	109;"	d
+oGPGDAT	s3c2440_regs.h	110;"	d
+oGPGUP	s3c2440_regs.h	111;"	d
+oGPHCON	s3c2440_regs.h	116;"	d
+oGPHDAT	s3c2440_regs.h	117;"	d
+oGPHUP	s3c2440_regs.h	118;"	d
+oGPJCON	s3c2440_regs.h	124;"	d
+oGPJDAT	s3c2440_regs.h	125;"	d
+oGPJUP	s3c2440_regs.h	126;"	d
+oGSTATUS0	s3c2440_regs.h	148;"	d
+oGSTATUS1	s3c2440_regs.h	149;"	d
+oGSTATUS2	s3c2440_regs.h	150;"	d
+oGSTATUS3	s3c2440_regs.h	151;"	d
+oGSTATUS4	s3c2440_regs.h	152;"	d
+oINTMOD	s3c2440_regs.h	18;"	d
+oINTMSK	s3c2440_regs.h	19;"	d
+oINTOFFSET	s3c2440_regs.h	22;"	d
+oINTPND	s3c2440_regs.h	21;"	d
+oINTSUBMSK	s3c2440_regs.h	24;"	d
+oLOCKTIME	s3c2440_regs.h	32;"	d
+oMPLLCON	s3c2440_regs.h	33;"	d
+oMRSRB6	s3c2440_regs.h	55;"	d
+oMRSRB7	s3c2440_regs.h	56;"	d
+oNFADDR	s3c2440_regs.h	198;"	d
+oNFCMMD	s3c2440_regs.h	197;"	d
+oNFCONF	s3c2440_regs.h	195;"	d
+oNFCONT	s3c2440_regs.h	196;"	d
+oNFDATA	s3c2440_regs.h	199;"	d
+oNFEBLK	s3c2440_regs.h	210;"	d
+oNFESTAT0	s3c2440_regs.h	204;"	d
+oNFESTAT1	s3c2440_regs.h	205;"	d
+oNFMECC0	s3c2440_regs.h	206;"	d
+oNFMECC1	s3c2440_regs.h	207;"	d
+oNFMECCD	s3c2440_regs.h	202;"	d
+oNFMECCD0	s3c2440_regs.h	200;"	d
+oNFMECCD1	s3c2440_regs.h	201;"	d
+oNFSBLK	s3c2440_regs.h	209;"	d
+oNFSECC	s3c2440_regs.h	208;"	d
+oNFSTAT	s3c2440_regs.h	203;"	d
+oPRIO	s3c2440_regs.h	20;"	d
+oREFRESH	s3c2440_regs.h	53;"	d
+oSRCPND	s3c2440_regs.h	17;"	d
+oSUBSRCPND	s3c2440_regs.h	23;"	d
+oUBRDIV	s3c2440_regs.h	177;"	d
+oUCON	s3c2440_regs.h	166;"	d
+oUERSTAT	s3c2440_regs.h	170;"	d
+oUFCON	s3c2440_regs.h	167;"	d
+oUFSTAT	s3c2440_regs.h	171;"	d
+oULCON	s3c2440_regs.h	165;"	d
+oUMCON	s3c2440_regs.h	168;"	d
+oUMSTAT	s3c2440_regs.h	172;"	d
+oUPLLCON	s3c2440_regs.h	34;"	d
+oURXH_BE	s3c2440_regs.h	176;"	d
+oURXH_LE	s3c2440_regs.h	175;"	d
+oUTRSTAT	s3c2440_regs.h	169;"	d
+oUTXH_BE	s3c2440_regs.h	174;"	d
+oUTXH_LE	s3c2440_regs.h	173;"	d
+on_the_ram	core_init.S	/^on_the_ram:$/;"	l
+raise	no_raise_fixed.c	/^int raise(int signum)$/;"	f
+reg_GPACON	s3c2440_regs.h	66;"	d
+reg_GPADAT	s3c2440_regs.h	67;"	d
+reg_GPBCON	s3c2440_regs.h	73;"	d
+reg_GPBDAT	s3c2440_regs.h	74;"	d
+reg_GPBUP	s3c2440_regs.h	75;"	d
+reg_GPCCON	s3c2440_regs.h	81;"	d
+reg_GPCDAT	s3c2440_regs.h	82;"	d
+reg_GPCUP	s3c2440_regs.h	83;"	d
+reg_GPDCON	s3c2440_regs.h	89;"	d
+reg_GPDDAT	s3c2440_regs.h	90;"	d
+reg_GPDUP	s3c2440_regs.h	91;"	d
+reg_GPECON	s3c2440_regs.h	97;"	d
+reg_GPEDAT	s3c2440_regs.h	98;"	d
+reg_GPEUP	s3c2440_regs.h	99;"	d
+reg_GPFCON	s3c2440_regs.h	105;"	d
+reg_GPFDAT	s3c2440_regs.h	106;"	d
+reg_GPFUP	s3c2440_regs.h	107;"	d
+reg_GPGCON	s3c2440_regs.h	112;"	d
+reg_GPGDAT	s3c2440_regs.h	113;"	d
+reg_GPGUP	s3c2440_regs.h	114;"	d
+reg_GPHCON	s3c2440_regs.h	120;"	d
+reg_GPHDAT	s3c2440_regs.h	121;"	d
+reg_GPHUP	s3c2440_regs.h	122;"	d
+reg_GPJCON	s3c2440_regs.h	128;"	d
+reg_GPJDAT	s3c2440_regs.h	129;"	d
+reg_GPJUP	s3c2440_regs.h	130;"	d
+reg_NFADDR	s3c2440_regs.h	215;"	d
+reg_NFCMMD	s3c2440_regs.h	214;"	d
+reg_NFCONF	s3c2440_regs.h	212;"	d
+reg_NFCONT	s3c2440_regs.h	213;"	d
+reg_NFDATA	s3c2440_regs.h	216;"	d
+reg_NFEBLK	s3c2440_regs.h	227;"	d
+reg_NFESTAT0	s3c2440_regs.h	221;"	d
+reg_NFESTAT1	s3c2440_regs.h	222;"	d
+reg_NFMECC	s3c2440_regs.h	225;"	d
+reg_NFMECC0	s3c2440_regs.h	223;"	d
+reg_NFMECC1	s3c2440_regs.h	224;"	d
+reg_NFMECCD	s3c2440_regs.h	219;"	d
+reg_NFMECCD0	s3c2440_regs.h	217;"	d
+reg_NFMECCD1	s3c2440_regs.h	218;"	d
+reg_NFSBLK	s3c2440_regs.h	226;"	d
+reg_NFSTAT	s3c2440_regs.h	220;"	d
+reg_SRCPND	s3c2440_regs.h	26;"	d
+reg_UBRDIV	s3c2440_regs.h	189;"	d
+reg_UCON0	s3c2440_regs.h	180;"	d
+reg_UERSTAT	s3c2440_regs.h	184;"	d
+reg_UFCON0	s3c2440_regs.h	181;"	d
+reg_UFSTAT	s3c2440_regs.h	185;"	d
+reg_ULCON0	s3c2440_regs.h	179;"	d
+reg_UMCON0	s3c2440_regs.h	182;"	d
+reg_UMSTAT	s3c2440_regs.h	186;"	d
+reg_URXH_LE	s3c2440_regs.h	188;"	d
+reg_UTRSTAT	s3c2440_regs.h	183;"	d
+reg_UTXH_LE	s3c2440_regs.h	187;"	d
+reg_WTCON	s3c2440_regs.h	11;"	d
+reset	core_init.S	/^reset:$/;"	l
+tlb_invalidate	mmu.c	/^void tlb_invalidate(void)$/;"	f
+uart_send_byte	main.c	/^static void uart_send_byte(char ch)$/;"	f	file:
+uart_send_hex	main.c	/^void uart_send_hex(unsigned int n)$/;"	f
+uart_send_str	main.c	/^void uart_send_str(char *str)$/;"	f
+uart_send_u8	main.c	/^void uart_send_u8(unsigned char n)$/;"	f
+uint32	def.h	/^typedef unsigned long 	uint32;$/;"	t
+uint8	def.h	/^typedef unsigned char 	uint8;$/;"	t
+vUART_BAUD_RATE	configs.h	68;"	d
+vUART_GPIO_CON	configs.h	70;"	d
+vUART_GPIO_UP	configs.h	71;"	d
+vUBRDIVn	configs.h	69;"	d
